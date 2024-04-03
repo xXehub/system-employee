@@ -9,19 +9,19 @@
 <h1 align="center">System Employee Main</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/xXehub/system-employee-main?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/xXehub/system-employee?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/xXehub/system-employee-main?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/xXehub/system-employee?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/xXehub/system-employee-main?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/xXehub/system-employee?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/xXehub/system-employee-main?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/xXehub/system-employee?color=56BEB8">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/xXehub/system-employee-main?color=56BEB8" /> -->
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/xXehub/system-employee?color=56BEB8" /> -->
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/xXehub/system-employee-main?color=56BEB8" /> -->
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/xXehub/system-employee?color=56BEB8" /> -->
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/xXehub/system-employee-main?color=56BEB8" /> -->
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/xXehub/system-employee?color=56BEB8" /> -->
 </p>
 
 <!-- Status -->
@@ -72,10 +72,10 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/xXehub/system-employee-main
+$ git clone https://github.com/xXehub/system-employee
 
 # Access
-$ cd system-employee-main
+$ cd system-employee
 
 # Install dependencies
 $ yarn
