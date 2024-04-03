@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="https://system-employee/blob/master/screenshot/create-employee.png" width="900" alt="System Employee" />
+  <img src="https://system-employee/screenshot/create-employee.png" width="900" alt="System Employee" />
 
   <a href="#">Demo</a>
 
@@ -125,7 +125,7 @@ DB_PASSWORD=root123
 
 <details>
 <summary>
-## Penjelasan Singkat
+<b> Penjelasan Singkat </b>
 </summary>
 
 ####
@@ -142,7 +142,7 @@ DB_PASSWORD=root123
 ## :memo: License
 
 This project is licensed under the MIT License. For more details, please refer to the [LICENSE](LICENSE.md)
-<p>
+<p> </p>
 **Authors** : [@xXehub](https://www.github.com/xXehub)
 
 <!-- Made with :heart: by <a href="https://github.com/xXehub" target="_blank">{{YOUR_NAME}}</a>
