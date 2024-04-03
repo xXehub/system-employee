@@ -62,7 +62,7 @@
 
 ## :dart: Tentang Project
 
-** This project is under development ** - Aplikasi web berbasis Laravel ini adalah **proyek tugas kampus** yang dikembangkan menggunakan kerangka kerja PHP Laravel 
+**This project is under development** - Aplikasi web berbasis Laravel ini adalah **proyek tugas kampus** yang dikembangkan menggunakan kerangka kerja PHP Laravel 
 
 <!-- ## :sparkles: Features
 
@@ -86,7 +86,7 @@ The following tools were used in this project:
 ![Composer](https://img.shields.io/badge/composer-%23885630.svg?&style=for-the-badge&logo=composer&logoColor=white)
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white)
 
-Sebelum melakukan setup / installasi, harus sudah menginstall [Git](https://git-scm.com),  [PHP 8.0 atau lebih tinggi](https://www.php.net/downloads.php), Web server (Apache, Nginx, dll.), Database server (MySQL, PostgreSQL, SQLite, dll.) [Node](https://nodejs.org/en/) installed dan [Composer](https://getcomposer.org).
+Sebelum melakukan setup / installasi, harus sudah menginstall **[Git](https://git-scm.com)**,  **[PHP 8.0 atau lebih tinggi](https://www.php.net/downloads.php)**, **Web server** (Apache, Nginx, dll.), **Database server** (MySQL, PostgreSQL, SQLite, dll.), **[Node](https://nodejs.org/en/)** dan **[Composer](https://getcomposer.org)**.
 
 ## :book: Setup
 
