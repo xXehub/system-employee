@@ -1,5 +1,7 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="System Employee Main" />
+  <img src="https://system-employee/blob/master/screenshot/create-employee.png" width="900" alt="System Employee" />
+
+  <a href="#">Demo</a>
 
 &#xa0;
 
@@ -106,7 +108,7 @@ php artisan migrate:fresh --seed
 $ npm run dev
 $ php artisan serve
 
-# The server will initialize in the <http://127.0.0.1/8000>
+# The server will initialize in the <http://127.0.0.1:8000>
 ```
 
 ## :gear: Konfigurasi
@@ -122,7 +124,9 @@ DB_PASSWORD=root123
 ```
 
 <details>
-<summary>Penjelasan Singkat</summary>
+<summary>
+## Penjelasan Singkat
+</summary>
 
 ####
 
@@ -138,6 +142,7 @@ DB_PASSWORD=root123
 ## :memo: License
 
 This project is licensed under the MIT License. For more details, please refer to the [LICENSE](LICENSE.md)
+<p>
 **Authors** : [@xXehub](https://www.github.com/xXehub)
 
 <!-- Made with :heart: by <a href="https://github.com/xXehub" target="_blank">{{YOUR_NAME}}</a>
