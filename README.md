@@ -109,7 +109,7 @@ $ php artisan serve
 # The server will initialize in the <http://127.0.0.1/8000>
 ```
 
-## :gear: Konfigurasi .env
+## :gear: Konfigurasi
 
 Copy file .env.example dan ubah nama file menjadi .env lalu sesuaikan degan konfigurasi kalian
 ```env
@@ -123,16 +123,18 @@ DB_PASSWORD=root123
 
 <details>
 <summary>Penjelasan Singkat</summary>
+
 ####
 
 | Usernane | Contoh     | Penjelasan                |
 | :-------- | :------- | :------------------------- |
-| ` APP_KEY ` | ` base64:Mx6z7+GzDxxrQhnXGeMrjcKmYhIIlHI0q8pKwAyYycI= ` | digunakan untuk melakukan enkripsi dan dekripsi data. Ini berfungsi saat Laravel menggunakan fitur enkripsi dan dekripsi, serta dalam proses enkripsi dan dekripsi cookie.  |
-| ` APP_URL `| ` http://localhost ` | digunakan untuk menentukan URL dasar dari aplikasi Laravel. Ini akan digunakan oleh beberapa fitur Laravel seperti routing |
-| ` DB_DATABASE `| `laravel_sakkarepmu` | digunakan untuk menentukan nama **database** yang akan digunakan oleh aplikasi|
-| ` DB_USERNAME `| ` root ` | digunakan untuk menentukan **nama** atau **username** database yang akan digunakan oleh aplikasi default **root**|
-| ` DB_PASSWORD `| ` root123 ` | digunakan untuk menentukan nama **password** yang akan digunakan oleh aplikasi, Anda harus mengganti **password** dengan password yang sesuai dengan konfigurasi database Anda|
+| ` APP_KEY ` | ` base64:Mx6z7+GzDxxrQhnXGeMrjcKmYhIIlHI0q8pKwAyYycI= ` | untuk melakukan enkripsi dan dekripsi data. Ini berfungsi saat Laravel menggunakan fitur enkripsi dan dekripsi, serta dalam proses enkripsi dan dekripsi cookie.  |
+| ` APP_URL `| ` http://localhost ` | untuk menentukan URL dasar dari aplikasi Laravel. Ini akan digunakan oleh beberapa fitur Laravel seperti routing |
+| ` DB_DATABASE `| `laravel_sakkarepmu` | untuk menentukan nama **database** yang akan digunakan oleh aplikasi|
+| ` DB_USERNAME `| ` root ` | untuk menentukan **nama** atau **username** database yang akan digunakan oleh aplikasi default **root**|
+| ` DB_PASSWORD `| ` root123 ` | untuk menentukan nama **password** yang akan digunakan oleh aplikasi, Anda harus mengganti **password** dengan password yang sesuai dengan konfigurasi database Anda|
 </details>
+
 ## :memo: License
 
 This project is licensed under the MIT License. For more details, please refer to the [LICENSE](LICENSE.md)
