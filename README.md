@@ -47,10 +47,11 @@
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
+  <!-- <a href="#sparkles-features">Features</a> &#xa0; | &#xa0; -->
   <!-- <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0; -->
   <a href="#file_folder-requirements">Requirements</a> &#xa0; | &#xa0; 
   <a href="#checkered_flag-starting">Setup</a> &#xa0; | &#xa0;
+  <a href="#sparkles-features">Konfigurasi</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/xXehub" target="_blank">Author</a>
 </p>
@@ -66,7 +67,7 @@ This project is under development
 :heavy_check_mark: Feature 1;\
 :heavy_check_mark: Feature 2;\
 :heavy_check_mark: Feature 3; -->
-<!-- 
+<!--
 ## :rocket: Technologies
 
 The following tools were used in this project:
@@ -77,35 +78,23 @@ The following tools were used in this project:
 -   [PHP](https://reactnative.dev/) -->
 
 ## :file_folder: Requirements
-<img src="https://img.shields.io/badge/laravel-%23FF2D20.svg?&style=for-the-badge&logo=laravel&logoColor=white" />
-<img src="https://img.shields.io/badge/node.js-%23339933.svg?&style=for-the-badge&logo=node.js&logoColor=white" />
-<img src="https://img.shields.io/badge/composer-%23885630.svg?&style=for-the-badge&logo=composer&logoColor=white" />
-<img src="https://img.shields.io/badge/php-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white" />
+
+![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?&style=for-the-badge&logo=laravel&logoColor=white)
+![Nodejs](https://img.shields.io/badge/node.js-%23339933.svg?&style=for-the-badge&logo=node.js&logoColor=white)
+![Composer](https://img.shields.io/badge/composer-%23885630.svg?&style=for-the-badge&logo=composer&logoColor=white)
+![PHP](https://img.shields.io/badge/php-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white)
 
 Sebelum melakukan setup / installasi, harus sudah menginstall [Git](https://git-scm.com), [Node](https://nodejs.org/en/) installed dan [Composer](https://getcomposer.org).
 
-## :checkered_flag: Starting
+## :checkered_flag: Setup
 
 ```bash
-# Clone this project
+# Clone project
 $ git clone https://github.com/xXehub/system-employee
 
-# Access
+# Masuk ke dir project
 $ cd system-employee
-```
-## :gear: Konfigurasi .env 
-Copy file .env.example menjadi file .env lalu sesuaikan degan konfigurasi kalian
 
-```env
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=laravel
-DB_USERNAME=root
-DB_PASSWORD=
-```
-
-```bash
 # Install dependencies
 $ npm install
 $ composer install
@@ -119,14 +108,30 @@ $ php artisan serve
 
 # The server will initialize in the <http://127.0.0.1/8000>
 ```
+
+## :gear: Konfigurasi .env
+
+Copy file .env.example dan ubah nama file menjadi .env lalu sesuaikan degan konfigurasi kalian
+
+####
+
+| Usernane | Contoh     | Penjelasan                |
+| :-------- | :------- | :------------------------- |
+| `APP_KEY` | `base64:Mx6z7+GzDxxrQhnXGeMrjcKmYhIIlHI0q8pKwAyYycI=` | digunakan untuk melakukan enkripsi dan dekripsi data. Ini berfungsi saat Laravel menggunakan fitur enkripsi dan dekripsi, serta dalam proses enkripsi dan dekripsi cookie.  |
+| `APP_URL`| `laravel_sakkarepmu` | digunakan untuk menentukan URL dasar dari aplikasi Laravel. Ini akan digunakan oleh beberapa fitur Laravel seperti routing |
+| `DB_DATABASE`| `laravel_sakkarepmu` | Nama **Database**|
+| `DB_USERNAME`| `root` | Username **Database** default **root**|
+| `DB_PASSWORD`| `root123` | Password **Database**|
+
 ## :memo: License
-[MIT](LICENSE.md)
+
+This project is licensed under the MIT License. For more details, please refer to the [LICENSE](LICENSE.md)
+[@xXehub](https://www.github.com/xXehub)
 
 <!-- Made with :heart: by <a href="https://github.com/xXehub" target="_blank">{{YOUR_NAME}}</a>
 
 &#xa0; -->
-
+<!-- 
 ## :label: Authors
 
-- [@xXehub](https://www.github.com/xXehub)
-
+-   [@xXehub](https://www.github.com/xXehub) -->
