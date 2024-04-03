@@ -52,7 +52,7 @@
   <!-- <a href="#sparkles-features">Features</a> &#xa0; | &#xa0; -->
   <!-- <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0; -->
   <a href="#file_folder-requirements">Requirements</a> &#xa0; | &#xa0; 
-  <a href="#tools-setup">Setup</a> &#xa0; | &#xa0;
+  <a href="#book-setup">Setup</a> &#xa0; | &#xa0;
   <a href="#gear-konfigurasi">Konfigurasi</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/xXehub" target="_blank">Author</a>
@@ -88,7 +88,7 @@ The following tools were used in this project:
 
 Sebelum melakukan setup / installasi, harus sudah menginstall [Git](https://git-scm.com), [Node](https://nodejs.org/en/) installed dan [Composer](https://getcomposer.org).
 
-## :tools: Setup
+## :book: Setup
 
 ```bash
 # Clone project
@@ -125,7 +125,7 @@ DB_PASSWORD=root123
 
 <details>
 <summary>
-<h4> Penjelasan Singkat </h4>
+<h2> Penjelasan Singkat </h2>
 </summary>
 
 ####
@@ -143,7 +143,7 @@ DB_PASSWORD=root123
 
 This project is licensed under the MIT License. For more details, please refer to the [LICENSE](LICENSE.md) File.
 
-[@xXehub](https://www.github.com/xXehub)
+**Authors** : [@xXehub](https://www.github.com/xXehub)
 
 <!-- Made with :heart: by <a href="https://github.com/xXehub" target="_blank">{{YOUR_NAME}}</a>
 
