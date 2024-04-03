@@ -21,8 +21,8 @@
                         <th>Last Name</th>
                         <th>Email</th>
                         <th>Age</th>
-                        {{-- <th>Position</th> --}}
-                        <th>Action</th>
+                        <th>Position</th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -32,7 +32,7 @@
                             <td>{{ $employee->lastname }}</td>
                             <td>{{ $employee->email }}</td>
                             <td>{{ $employee->age }}</td>
-                            {{-- <td>{{ $employee->position->name }}</td> --}}
+                            <td>{{ $employee->position->name }}</td>
                             <td>@include('employee.actions')</td>
                         </tr>
                     @endforeach
