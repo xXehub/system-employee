@@ -51,7 +51,7 @@
   <!-- <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0; -->
   <a href="#file_folder-requirements">Requirements</a> &#xa0; | &#xa0; 
   <a href="#checkered_flag-starting">Setup</a> &#xa0; | &#xa0;
-  <a href="#sparkles-features">Konfigurasi</a> &#xa0; | &#xa0;
+  <a href="#gear-konfigurasi">Konfigurasi</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/xXehub" target="_blank">Author</a>
 </p>
@@ -112,21 +112,31 @@ $ php artisan serve
 ## :gear: Konfigurasi .env
 
 Copy file .env.example dan ubah nama file menjadi .env lalu sesuaikan degan konfigurasi kalian
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravel_sakkarepmu
+DB_USERNAME=root
+DB_PASSWORD=root123
+```
 
+<details>
+<summary>Penjelasan Singkat</summary>
 ####
 
 | Usernane | Contoh     | Penjelasan                |
 | :-------- | :------- | :------------------------- |
-| `APP_KEY` | `base64:Mx6z7+GzDxxrQhnXGeMrjcKmYhIIlHI0q8pKwAyYycI=` | digunakan untuk melakukan enkripsi dan dekripsi data. Ini berfungsi saat Laravel menggunakan fitur enkripsi dan dekripsi, serta dalam proses enkripsi dan dekripsi cookie.  |
-| `APP_URL`| `laravel_sakkarepmu` | digunakan untuk menentukan URL dasar dari aplikasi Laravel. Ini akan digunakan oleh beberapa fitur Laravel seperti routing |
-| `DB_DATABASE`| `laravel_sakkarepmu` | Nama **Database**|
-| `DB_USERNAME`| `root` | Username **Database** default **root**|
-| `DB_PASSWORD`| `root123` | Password **Database**|
-
+| ` APP_KEY ` | ` base64:Mx6z7+GzDxxrQhnXGeMrjcKmYhIIlHI0q8pKwAyYycI= ` | digunakan untuk melakukan enkripsi dan dekripsi data. Ini berfungsi saat Laravel menggunakan fitur enkripsi dan dekripsi, serta dalam proses enkripsi dan dekripsi cookie.  |
+| ` APP_URL `| ` http://localhost ` | digunakan untuk menentukan URL dasar dari aplikasi Laravel. Ini akan digunakan oleh beberapa fitur Laravel seperti routing |
+| ` DB_DATABASE `| `laravel_sakkarepmu` | digunakan untuk menentukan nama **database** yang akan digunakan oleh aplikasi|
+| ` DB_USERNAME `| ` root ` | digunakan untuk menentukan **nama** atau **username** database yang akan digunakan oleh aplikasi default **root**|
+| ` DB_PASSWORD `| ` root123 ` | digunakan untuk menentukan nama **password** yang akan digunakan oleh aplikasi, Anda harus mengganti **password** dengan password yang sesuai dengan konfigurasi database Anda|
+</details>
 ## :memo: License
 
 This project is licensed under the MIT License. For more details, please refer to the [LICENSE](LICENSE.md)
-[@xXehub](https://www.github.com/xXehub)
+**Authors** : [@xXehub](https://www.github.com/xXehub)
 
 <!-- Made with :heart: by <a href="https://github.com/xXehub" target="_blank">{{YOUR_NAME}}</a>
 
