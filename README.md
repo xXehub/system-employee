@@ -9,13 +9,17 @@
 <h1 align="center">System Employee Main</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/xXehub/system-employee?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/xXehub/system-employee?">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/xXehub/system-employee?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/xXehub/system-employee?">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/xXehub/system-employee?color=56BEB8">
+  <a href="https://github.com/xXehub/system-employee/commits/main" target="_blank">
+    <img src="https://img.shields.io/github/commit-activity/m/xXehub/system-employee?" alt="Badge showing average commit frequency per month"/>
+  </a>
 
-  <img alt="License" src="https://img.shields.io/github/license/xXehub/system-employee?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/xXehub/system-employee?">
+
+  <img alt="License" src="https://img.shields.io/github/license/xXehub/system-employee?">
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/xXehub/system-employee?color=56BEB8" /> -->
 
