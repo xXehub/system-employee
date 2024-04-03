@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="https://system-employee/screenshot/create-employee.png" width="900" alt="System Employee" />
+  <img src="https://raw.githubusercontent.com/xXehub/system-employee/master/screenshot/create-employee.png" width="900" alt="System Employee" />
 
   <a href="#">Demo</a>
 
@@ -62,7 +62,7 @@
 
 ## :dart: Tentang Project
 
-This project is under development
+** This project is under development ** - Aplikasi web berbasis Laravel ini adalah **proyek tugas kampus** yang dikembangkan menggunakan kerangka kerja PHP Laravel 
 
 <!-- ## :sparkles: Features
 
@@ -86,12 +86,12 @@ The following tools were used in this project:
 ![Composer](https://img.shields.io/badge/composer-%23885630.svg?&style=for-the-badge&logo=composer&logoColor=white)
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white)
 
-Sebelum melakukan setup / installasi, harus sudah menginstall [Git](https://git-scm.com), [Node](https://nodejs.org/en/) installed dan [Composer](https://getcomposer.org).
+Sebelum melakukan setup / installasi, harus sudah menginstall [Git](https://git-scm.com),  [PHP 8.0 atau lebih tinggi](https://www.php.net/downloads.php), Web server (Apache, Nginx, dll.), Database server (MySQL, PostgreSQL, SQLite, dll.) [Node](https://nodejs.org/en/) installed dan [Composer](https://getcomposer.org).
 
 ## :book: Setup
 
 ```bash
-# Clone project
+# Clone project ke direktori lokal 
 $ git clone https://github.com/xXehub/system-employee
 
 # Masuk ke dir project
@@ -114,18 +114,9 @@ $ php artisan serve
 ## :gear: Konfigurasi
 
 Copy file .env.example dan ubah nama file menjadi .env lalu sesuaikan degan konfigurasi kalian
-```env
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=laravel_sakkarepmu
-DB_USERNAME=root
-DB_PASSWORD=root123
-```
-
 <details>
 <summary>
-<h2> Penjelasan Singkat </h2>
+ Penjelasan Singkat
 </summary>
 
 ####
@@ -138,6 +129,15 @@ DB_PASSWORD=root123
 | ` DB_USERNAME `| ` root ` | untuk menentukan **nama** atau **username** database yang akan digunakan oleh aplikasi default **root**|
 | ` DB_PASSWORD `| ` root123 ` | untuk menentukan nama **password** yang akan digunakan oleh aplikasi, Anda harus mengganti **password** dengan password yang sesuai dengan konfigurasi database Anda|
 </details>
+
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravel_sakkarepmu
+DB_USERNAME=root
+DB_PASSWORD=root123
+```
 
 ## :memo: License
 
